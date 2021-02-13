@@ -1,10 +1,14 @@
-import './App.css';
+import './App.css'
+import Name from './components/Name'
 import Counter from './components/Counter'
 
 function App() {
   return (
-    <Counter />
+    <div style={{paddingTop: '15px', paddingLeft: '15px'}}>
+      <Name />
+      <Counter />
+    </div>
   );
 }
 
-export default App;
+export default App

@@ -1,5 +1,5 @@
 import { fireEvent, render } from '@testing-library/react'
-import Counter from './Counter'
+import Counter from '.'
 
 describe('Testing <Counter />', () => {
   it('should render counter correctly', () => {

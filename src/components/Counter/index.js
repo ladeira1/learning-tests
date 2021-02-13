@@ -12,7 +12,7 @@ const Counter = () => {
   }
 
   return (
-    <div style={{paddingTop: '15px', paddingLeft: '15px'}}>
+    <div>
       <button type="button" onClick={handleIncreaseCounter} data-testid="counter-increase">
         Increase counter
       </button>
